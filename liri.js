@@ -5,15 +5,13 @@ let axiosResponse = {};
 
 
 // Include dotenv npm package
-const dotenv = require("dotenv");
-// ojo  console.log("dotenv: " + dotenv.config());
+require("dotenv").config();
 
 // Include node-spotify-api npm package
+// pjp let spotify = new Spotify(keys.spotify);
 const keys = require("./keys.js");
 const Spotify = require("node-spotify-api");
-// let spotify = new Spotify(keys.spotify);
 const spotify = new Spotify(keys.spotify);
-// ojo  console.log("spotify id: " + spotify.id + "; spotify key: " + spotify.secret);
 
 // Include axios npm package
 const axios = require("axios");
@@ -251,15 +249,28 @@ function spotifyThis(song) {
             filter: function(str) {return str.toUpperCase();}
         }
     ]).then(function(answer) {
-        console.log(JSON.stringify(answer));
+        console.log(JSON.stringify(answer, null, 2));
 
-        spotify.search({type: 'track', query: answer.userSong}, function(err, data) {
-            if (err) {
-                return console.log('Error occurred: ' + err);
-            }
+        // spotify.search({type: "track", query: answer.userSong, limit: 5}, function(err, data) {
+        //     if (err) {
+        //         return console.log('Error occurred: ' + err);
+        //     }
 
-            console.log(JSON.stringify(data));
-        });
+        //     console.log(JSON.stringify(data, null, 2));
+        // });
+        console.log(answer.userSong)
+
+        spotify.search({type: "track", query: answer.userSong, limit: 1})
+            .then(function(response) {
+                console.log("response: " + JSON.stringify(response.tracks.items[0].artists[0].name, null, 2)); // Artist
+                console.log("response: " + JSON.stringify(response.tracks.items[0].name, null, 2)); // Song
+                console.log("response: " + JSON.stringify(response.tracks.items[0].preview_url, null, 2)); // Preview URL
+                console.log("response: " + JSON.stringify(response.tracks.items[0].album.name, null, 2)); // Album
+
+            })
+            .catch(function(err) {
+                console.log('Error occurred: ' + err);
+            });
 
         /*
         apiKey = "codingbootcamp";
