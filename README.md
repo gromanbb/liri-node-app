@@ -1,7 +1,7 @@
-# liri-node-app
+### liri-node-app
 Homework 8: LIRI Bot Assignment
 
-## LiriBot
+# LiriBot
 
 ### Overview
 
@@ -50,5 +50,8 @@ LiriBot is a text-based Command Line Interface (CLI) that allows users to execut
 		Below is the line of code that you'll need to use:
 		```
 		npm install dotenv inquirer node-spotify-api axios moment
+		```
+
+
 		```
 
