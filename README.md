@@ -41,4 +41,22 @@ LiriBot is a text-based Command Line Interface (CLI) that allows users to execut
  npm install dotenv inquirer node-spotify-api axios moment
     ```
 
+### What each command does
+
+LiriBot will display the following menu of commands:
+
+​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-menu.png)
+
+Concert-This will prompt for the name of an artist or band, and then provide a list of upcoming concerts and related info.
+
+​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-concert-this.png)
+
+Spotify-This will prompt for the name of song, and then provide a list of all artists and the names of similar song names.
+
+​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-spotify-this.png)
+
+
+
+
+
 
