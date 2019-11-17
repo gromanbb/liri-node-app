@@ -1,37 +1,454 @@
 
 Concert-this:
 {
-  "artist": "U2",
+  "artist": "MADONNA",
   "venues": [
     {
-      "name": "Mt Smart Stadium",
-      "country": "New Zealand",
-      "city": "Auckland",
-      "date": "11/08/2019"
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/16/2019"
     },
     {
-      "name": "Mt Smart Stadium",
-      "country": "New Zealand",
-      "city": "Auckland",
-      "date": "11/09/2019"
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/17/2019"
     },
     {
-      "name": "Marvel Stadium",
-      "country": "Australia",
-      "city": "Docklands",
-      "date": "11/15/2019"
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/19/2019"
     },
     {
-      "name": "Optus Stadium",
-      "country": "Australia",
-      "city": "Burswood",
-      "date": "11/27/2019"
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/20/2019"
     },
     {
-      "name": "National Stadium, Singapore Sports Hub",
-      "country": "Singapore",
-      "city": "Singapore",
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/21/2019"
+    },
+    {
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/23/2019"
+    },
+    {
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/24/2019"
+    },
+    {
+      "name": "The Wiltern",
+      "country": "United States",
+      "city": "Los Angeles",
+      "date": "11/25/2019"
+    },
+    {
+      "name": "Boch Center - Wang Theatre",
+      "country": "United States",
+      "city": "Boston",
       "date": "11/30/2019"
+    },
+    {
+      "name": "Boch Center - Wang Theatre",
+      "country": "United States",
+      "city": "Boston",
+      "date": "12/01/2019"
+    },
+    {
+      "name": "Boch Center - Wang Theatre",
+      "country": "United States",
+      "city": "Boston",
+      "date": "12/02/2019"
+    },
+    {
+      "name": "The Met Philadelphia",
+      "country": "United States",
+      "city": "Philadelphia",
+      "date": "12/07/2019"
+    },
+    {
+      "name": "The Met Philadelphia",
+      "country": "United States",
+      "city": "Philadelphia",
+      "date": "12/08/2019"
+    },
+    {
+      "name": "The Met Philadelphia",
+      "country": "United States",
+      "city": "Philadelphia",
+      "date": "12/10/2019"
+    },
+    {
+      "name": "The Met Philadelphia",
+      "country": "United States",
+      "city": "Philadelphia",
+      "date": "12/11/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/14/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/15/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/17/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/18/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/19/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/21/2019"
+    },
+    {
+      "name": "The Fillmore",
+      "country": "United States",
+      "city": "Miami Beach",
+      "date": "12/22/2019"
+    },
+    {
+      "name": "Coliseu dos Recreios",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "date": "01/12/2020"
+    },
+    {
+      "name": "Coliseu dos Recreios",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "date": "01/16/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "01/26/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "01/27/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "01/29/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "01/30/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/01/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/02/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/04/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/05/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/06/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/08/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/09/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/11/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/12/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/13/2020"
+    },
+    {
+      "name": "The London Palladium",
+      "country": "United Kingdom",
+      "city": "London",
+      "date": "02/15/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/18/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/19/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/20/2020"
+    },
+    {
+      "name": "GRAND REX",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/21/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/22/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/23/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/25/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/26/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/27/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "02/29/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "03/01/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "03/03/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "03/04/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "03/07/2020"
+    },
+    {
+      "name": "Grand Rex",
+      "country": "France",
+      "city": "Paris",
+      "date": "03/08/2020"
     }
   ]
 }
+Spotify-this-song:
+[
+  {
+    "artist": "a-ha",
+    "name": "Take on Me",
+    "link": "https://p.scdn.co/mp3-preview/0f980d0fac59f77123d0272b78bce97f1374d9e9?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Hunting High And Low"
+  },
+  {
+    "artist": "ABBA",
+    "name": "Take A Chance On Me",
+    "link": null,
+    "album": "The Album"
+  },
+  {
+    "artist": "Weezer",
+    "name": "Take On Me",
+    "link": "https://p.scdn.co/mp3-preview/80619d72824409cc5c381edd1f514f3bb8e65a76?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Weezer (Teal Album)"
+  },
+  {
+    "artist": "Thousand Foot Krutch",
+    "name": "Take It Out On Me",
+    "link": null,
+    "album": "Welcome To The Masquerade (Fan Edition)"
+  },
+  {
+    "artist": "Reel Big Fish",
+    "name": "Take On Me",
+    "link": "https://p.scdn.co/mp3-preview/213a54e0a6889a1e791c509510c92b40d61e478e?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "The Best Of Us For The Rest Of Us"
+  },
+  {
+    "artist": "You Me At Six",
+    "name": "Take on the World",
+    "link": "https://p.scdn.co/mp3-preview/7d65ce55bbab15772ee4bc67cc673515fd954bcd?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Night People"
+  },
+  {
+    "artist": "a-ha",
+    "name": "Take On Me - MTV Unplugged",
+    "link": null,
+    "album": "MTV Unplugged - Summer Solstice"
+  },
+  {
+    "artist": "Florida Georgia Line",
+    "name": "Take It Out On Me",
+    "link": null,
+    "album": "Here's To The Good Times...This Is How We Roll"
+  },
+  {
+    "artist": "a-ha",
+    "name": "Take On Me - Kygo Remix",
+    "link": "https://p.scdn.co/mp3-preview/676149b3486ae98515dd53c0bca07f259ebfdd58?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "We Love the 10s"
+  },
+  {
+    "artist": "Ella Fitzgerald",
+    "name": "They Can't Take That Away From Me",
+    "link": null,
+    "album": "The Complete Ella And Louis On Verve"
+  },
+  {
+    "artist": "Pentatonix",
+    "name": "Take On Me",
+    "link": "https://p.scdn.co/mp3-preview/d97165dbdee9d529e952aa13708acf52f119cea0?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "PTX Vol. IV - Classics"
+  },
+  {
+    "artist": "Ninja Sex Party",
+    "name": "Take on Me",
+    "link": "https://p.scdn.co/mp3-preview/9d0c24fb378a0869ef2188a688c7949b8b7b873f?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Under the Covers"
+  },
+  {
+    "artist": "The Amity Affliction",
+    "name": "Don't Lean On Me",
+    "link": "https://p.scdn.co/mp3-preview/7a29833f3c4043c54ca292409b18d3a197a7b1ff?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Let The Ocean Take Me"
+  },
+  {
+    "artist": "Julie Walters",
+    "name": "Take A Chance On Me - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+    "link": null,
+    "album": "Mamma Mia! The Movie Soundtrack"
+  },
+  {
+    "artist": "a-ha",
+    "name": "Take on Me - Kygo Remix",
+    "link": "https://p.scdn.co/mp3-preview/676149b3486ae98515dd53c0bca07f259ebfdd58?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Take On Me (Kygo Remix)"
+  },
+  {
+    "artist": "Florida Georgia Line",
+    "name": "Take It Out On Me",
+    "link": null,
+    "album": "Here's To The Good Times...This Is How We Roll"
+  },
+  {
+    "artist": "Gregory Porter",
+    "name": "Holding On",
+    "link": null,
+    "album": "Take Me To The Alley"
+  },
+  {
+    "artist": "Jesse Mann",
+    "name": "Take It out on Me",
+    "link": "https://p.scdn.co/mp3-preview/93331bd20e9659e16210c6b1a6b1d1e4da80e2c7?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Fighting for Nothing"
+  },
+  {
+    "artist": "ABBA",
+    "name": "Take A Chance On Me",
+    "link": null,
+    "album": "ABBA Gold"
+  },
+  {
+    "artist": "Sindre Terjeseth",
+    "name": "Take On Me",
+    "link": "https://p.scdn.co/mp3-preview/2c87aa9e59bc3d07d42a460956b28dcfa83bb8e0?cid=f3287c7381dd4c0fa9ca959f3f8987cd",
+    "album": "Take On Me"
+  }
+]
