@@ -41,19 +41,53 @@ LiriBot is a text-based Command Line Interface (CLI) that allows users to execut
  npm install dotenv inquirer node-spotify-api axios moment
     ```
 
-### What each command does
+### What each Command does
 
 LiriBot will display the following menu of commands:
 
-​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-menu.png)
+​   ![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-menu.png)
 
-Concert-This will prompt for the name of an artist or band, and then provide a list of upcoming concerts and related info.
+1. `node liri.js concert-this <artist/band name here>`
 
-​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-concert-this.png)
+  * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=<Your API key>"`) for an artist and render the following information about each event to the terminal:
 
-Spotify-This will prompt for the name of song, and then provide a list of all artists and the names of similar song names.
+     * Name of the venue
+     * Venue location
+     * Date of the Event (use moment to format this as "MM/DD/YYYY")
+     
+  ![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-concert-this.png)
+     
+ 2.`node liri.js spotify-this-song '<song name here>'`
 
-​	![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-spotify-this.png)
+  * This will show the following information about the song in your terminal/bash window
+
+     * Artist(s)
+     * The song's name
+     * A preview link of the song from Spotify
+     * The album that the song is from
+
+  ![Demo](https://github.com/gromanbb/liri-node-app/blob/master/demo/liri-spotify-this.png)
+     
+ 3. `node liri.js movie-this '<movie name here>'`
+
+  * This will output the following information to your terminal/bash window:
+
+    * Title of the movie.
+    * Year the movie came out.
+    * IMDB Rating of the movie.
+    * Rotten Tomatoes Rating of the movie.
+    * Country where the movie was produced.
+    * Language of the movie.
+    * Plot of the movie.
+    * Actors in the movie.
+
+4. `node liri.js do-what-it-says`
+
+  * LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+
+    * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+     
+
 
 
 
